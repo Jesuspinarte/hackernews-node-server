@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma": "prisma"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "2.12.0",
     "apollo-server": "^2.19.0"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.14.0"
+    "@prisma/cli": "2.12.0"
   }
 }
